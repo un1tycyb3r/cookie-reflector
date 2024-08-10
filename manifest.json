@@ -1,0 +1,20 @@
+{
+  "id": "cookie-reflector",
+  "name": "Cookie Reflector",
+  "version": "0.1.0",
+  "description": "This checks for reflected cookies",
+  "author": {
+    "name": "Whit Taylor",
+    "email": "whit.taylor@rhinosecuritylabs.com"
+  },
+  "plugins": [
+    
+    {
+      "kind": "backend",
+      "id": "cookie-reflector-backend",
+      "name": "Cookie Reflector Backend",
+      "runtime": "javascript",
+      "entrypoint": "backend/script.js"
+    }
+  ]
+}
