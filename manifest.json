@@ -8,7 +8,6 @@
     "email": "whit.taylor@rhinosecuritylabs.com"
   },
   "plugins": [
-    
     {
       "kind": "backend",
       "id": "cookie-reflector-backend",
